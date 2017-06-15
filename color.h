@@ -5,6 +5,8 @@
 #ifndef RAY_TRACING_COLOR_H
 #define RAY_TRACING_COLOR_H
 
+#define COLORMAX 255
+
 class color {
 public:
     double r, g, b;
@@ -23,13 +25,13 @@ public:
         return color(r * x, g * x, b * x);
     }
     inline color merge(const color &a) const {
-        return color(r * a.r / 255, g * a.g / 255, b * a.b / 255);
+        return color(r * a.r / COLORMAX, g * a.g / COLORMAX, b * a.b / COLORMAX);
     }
     inline color operator + (const color &x) const {
         return color(r + x.r, g + x.g, b + x.b);
     }
     inline color norm() const {
-        return color(r > 255 ? 255 : r, g > 255 ? 255 : g, b > 255 ? 255 : b);
+        return color(r > COLORMAX ? COLORMAX : r, g > COLORMAX ? COLORMAX : g, b > COLORMAX ? COLORMAX : b);
     }
 };
 

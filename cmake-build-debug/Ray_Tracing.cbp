@@ -8,43 +8,43 @@
 		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\usr\local\share\OpenCV\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/Yifan/Desktop/Ray-Tracing/cmake-build-debug"/>
+				<Option working_dir="/Users/Yifan/Desktop/rayTracing/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/Yifan/Desktop/Ray-Tracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Yifan/Desktop/Ray-Tracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Yifan/Desktop/Ray-Tracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Yifan/Desktop/Ray-Tracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Yifan/Desktop/rayTracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Yifan/Desktop/rayTracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Yifan/Desktop/rayTracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Yifan/Desktop/rayTracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/Yifan/Desktop/Ray-Tracing/cmake-build-debug"/>
+				<Option working_dir="/Users/Yifan/Desktop/rayTracing/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/Yifan/Desktop/Ray-Tracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Yifan/Desktop/Ray-Tracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Yifan/Desktop/Ray-Tracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Yifan/Desktop/Ray-Tracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Yifan/Desktop/rayTracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Yifan/Desktop/rayTracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Yifan/Desktop/rayTracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Yifan/Desktop/rayTracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/Yifan/Desktop/Ray-Tracing/cmake-build-debug"/>
+				<Option working_dir="/Users/Yifan/Desktop/rayTracing/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/Yifan/Desktop/Ray-Tracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Yifan/Desktop/Ray-Tracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Yifan/Desktop/Ray-Tracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Yifan/Desktop/Ray-Tracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Yifan/Desktop/rayTracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Yifan/Desktop/rayTracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Yifan/Desktop/rayTracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Yifan/Desktop/rayTracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Ray_Tracing">
-				<Option output="/Users/Yifan/Desktop/Ray-Tracing/cmake-build-debug/Ray_Tracing" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/Yifan/Desktop/Ray-Tracing/cmake-build-debug"/>
+				<Option output="/Users/Yifan/Desktop/rayTracing/cmake-build-debug/Ray_Tracing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Yifan/Desktop/rayTracing/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/Yifan/Desktop/Ray-Tracing/cmake-build-debug"/>
+					<Add directory="/Users/Yifan/Desktop/rayTracing/cmake-build-debug"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/local/include/opencv"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
@@ -54,20 +54,20 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/Yifan/Desktop/Ray-Tracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ray_Tracing"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Yifan/Desktop/Ray-Tracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Yifan/Desktop/Ray-Tracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Yifan/Desktop/Ray-Tracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Yifan/Desktop/rayTracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ray_Tracing"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Yifan/Desktop/rayTracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Yifan/Desktop/rayTracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Yifan/Desktop/rayTracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Ray_Tracing/fast">
-				<Option output="/Users/Yifan/Desktop/Ray-Tracing/cmake-build-debug/Ray_Tracing" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/Yifan/Desktop/Ray-Tracing/cmake-build-debug"/>
+				<Option output="/Users/Yifan/Desktop/rayTracing/cmake-build-debug/Ray_Tracing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Yifan/Desktop/rayTracing/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/Yifan/Desktop/Ray-Tracing/cmake-build-debug"/>
+					<Add directory="/Users/Yifan/Desktop/rayTracing/cmake-build-debug"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/local/include/opencv"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
@@ -77,107 +77,119 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/Yifan/Desktop/Ray-Tracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ray_Tracing/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Yifan/Desktop/Ray-Tracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Yifan/Desktop/Ray-Tracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Yifan/Desktop/Ray-Tracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Yifan/Desktop/rayTracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ray_Tracing/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Yifan/Desktop/rayTracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Yifan/Desktop/rayTracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Yifan/Desktop/rayTracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/Yifan/Desktop/Ray-Tracing/BezierGen.cpp">
+		<Unit filename="/Users/Yifan/Desktop/rayTracing/BezierGen.cpp">
 			<Option target="Ray_Tracing"/>
 		</Unit>
-		<Unit filename="/Users/Yifan/Desktop/Ray-Tracing/BezierGen.h">
+		<Unit filename="/Users/Yifan/Desktop/rayTracing/BezierGen.h">
 			<Option target="Ray_Tracing"/>
 		</Unit>
-		<Unit filename="/Users/Yifan/Desktop/Ray-Tracing/Camera.hpp">
+		<Unit filename="/Users/Yifan/Desktop/rayTracing/Box.cpp">
 			<Option target="Ray_Tracing"/>
 		</Unit>
-		<Unit filename="/Users/Yifan/Desktop/Ray-Tracing/Film.cpp">
+		<Unit filename="/Users/Yifan/Desktop/rayTracing/Box.h">
 			<Option target="Ray_Tracing"/>
 		</Unit>
-		<Unit filename="/Users/Yifan/Desktop/Ray-Tracing/Film.h">
+		<Unit filename="/Users/Yifan/Desktop/rayTracing/Camera.hpp">
 			<Option target="Ray_Tracing"/>
 		</Unit>
-		<Unit filename="/Users/Yifan/Desktop/Ray-Tracing/PathTracer.cpp">
+		<Unit filename="/Users/Yifan/Desktop/rayTracing/Film.cpp">
 			<Option target="Ray_Tracing"/>
 		</Unit>
-		<Unit filename="/Users/Yifan/Desktop/Ray-Tracing/PathTracer.h">
+		<Unit filename="/Users/Yifan/Desktop/rayTracing/Film.h">
 			<Option target="Ray_Tracing"/>
 		</Unit>
-		<Unit filename="/Users/Yifan/Desktop/Ray-Tracing/Ray.h">
+		<Unit filename="/Users/Yifan/Desktop/rayTracing/PathTracer.cpp">
 			<Option target="Ray_Tracing"/>
 		</Unit>
-		<Unit filename="/Users/Yifan/Desktop/Ray-Tracing/RayTracer.cpp">
+		<Unit filename="/Users/Yifan/Desktop/rayTracing/PathTracer.h">
 			<Option target="Ray_Tracing"/>
 		</Unit>
-		<Unit filename="/Users/Yifan/Desktop/Ray-Tracing/RayTracer.h">
+		<Unit filename="/Users/Yifan/Desktop/rayTracing/ProgressivePhotonMapping.cpp">
 			<Option target="Ray_Tracing"/>
 		</Unit>
-		<Unit filename="/Users/Yifan/Desktop/Ray-Tracing/Sample.cpp">
+		<Unit filename="/Users/Yifan/Desktop/rayTracing/ProgressivePhotonMapping.h">
 			<Option target="Ray_Tracing"/>
 		</Unit>
-		<Unit filename="/Users/Yifan/Desktop/Ray-Tracing/Sample.h">
+		<Unit filename="/Users/Yifan/Desktop/rayTracing/Ray.h">
 			<Option target="Ray_Tracing"/>
 		</Unit>
-		<Unit filename="/Users/Yifan/Desktop/Ray-Tracing/Scene.cpp">
+		<Unit filename="/Users/Yifan/Desktop/rayTracing/RayTracer.cpp">
 			<Option target="Ray_Tracing"/>
 		</Unit>
-		<Unit filename="/Users/Yifan/Desktop/Ray-Tracing/Scene.h">
+		<Unit filename="/Users/Yifan/Desktop/rayTracing/RayTracer.h">
 			<Option target="Ray_Tracing"/>
 		</Unit>
-		<Unit filename="/Users/Yifan/Desktop/Ray-Tracing/Shape.cpp">
+		<Unit filename="/Users/Yifan/Desktop/rayTracing/Scene.cpp">
 			<Option target="Ray_Tracing"/>
 		</Unit>
-		<Unit filename="/Users/Yifan/Desktop/Ray-Tracing/Shape.h">
+		<Unit filename="/Users/Yifan/Desktop/rayTracing/Scene.h">
 			<Option target="Ray_Tracing"/>
 		</Unit>
-		<Unit filename="/Users/Yifan/Desktop/Ray-Tracing/Sphere.cpp">
+		<Unit filename="/Users/Yifan/Desktop/rayTracing/Shape.cpp">
 			<Option target="Ray_Tracing"/>
 		</Unit>
-		<Unit filename="/Users/Yifan/Desktop/Ray-Tracing/Sphere.h">
+		<Unit filename="/Users/Yifan/Desktop/rayTracing/Shape.h">
 			<Option target="Ray_Tracing"/>
 		</Unit>
-		<Unit filename="/Users/Yifan/Desktop/Ray-Tracing/Texture.cpp">
+		<Unit filename="/Users/Yifan/Desktop/rayTracing/Sphere.cpp">
 			<Option target="Ray_Tracing"/>
 		</Unit>
-		<Unit filename="/Users/Yifan/Desktop/Ray-Tracing/Texture.h">
+		<Unit filename="/Users/Yifan/Desktop/rayTracing/Sphere.h">
 			<Option target="Ray_Tracing"/>
 		</Unit>
-		<Unit filename="/Users/Yifan/Desktop/Ray-Tracing/color.h">
+		<Unit filename="/Users/Yifan/Desktop/rayTracing/Texture.cpp">
 			<Option target="Ray_Tracing"/>
 		</Unit>
-		<Unit filename="/Users/Yifan/Desktop/Ray-Tracing/float3.cpp">
+		<Unit filename="/Users/Yifan/Desktop/rayTracing/Texture.h">
 			<Option target="Ray_Tracing"/>
 		</Unit>
-		<Unit filename="/Users/Yifan/Desktop/Ray-Tracing/float3.h">
+		<Unit filename="/Users/Yifan/Desktop/rayTracing/color.h">
 			<Option target="Ray_Tracing"/>
 		</Unit>
-		<Unit filename="/Users/Yifan/Desktop/Ray-Tracing/header.h">
+		<Unit filename="/Users/Yifan/Desktop/rayTracing/float3.cpp">
 			<Option target="Ray_Tracing"/>
 		</Unit>
-		<Unit filename="/Users/Yifan/Desktop/Ray-Tracing/int4.cpp">
+		<Unit filename="/Users/Yifan/Desktop/rayTracing/float3.h">
 			<Option target="Ray_Tracing"/>
 		</Unit>
-		<Unit filename="/Users/Yifan/Desktop/Ray-Tracing/int4.h">
+		<Unit filename="/Users/Yifan/Desktop/rayTracing/header.h">
 			<Option target="Ray_Tracing"/>
 		</Unit>
-		<Unit filename="/Users/Yifan/Desktop/Ray-Tracing/main.cpp">
+		<Unit filename="/Users/Yifan/Desktop/rayTracing/int4.cpp">
 			<Option target="Ray_Tracing"/>
 		</Unit>
-		<Unit filename="/Users/Yifan/Desktop/Ray-Tracing/CMakeLists.txt">
+		<Unit filename="/Users/Yifan/Desktop/rayTracing/int4.h">
+			<Option target="Ray_Tracing"/>
+		</Unit>
+		<Unit filename="/Users/Yifan/Desktop/rayTracing/main.cpp">
+			<Option target="Ray_Tracing"/>
+		</Unit>
+		<Unit filename="/Users/Yifan/Desktop/rayTracing/photon.cpp">
+			<Option target="Ray_Tracing"/>
+		</Unit>
+		<Unit filename="/Users/Yifan/Desktop/rayTracing/photon.h">
+			<Option target="Ray_Tracing"/>
+		</Unit>
+		<Unit filename="/Users/Yifan/Desktop/rayTracing/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/Users/Yifan/Desktop/Ray-Tracing/../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+		<Unit filename="/Users/Yifan/Desktop/rayTracing/../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
 		</Unit>
-		<Unit filename="/Users/Yifan/Desktop/Ray-Tracing/../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+		<Unit filename="/Users/Yifan/Desktop/rayTracing/../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
 		</Unit>
-		<Unit filename="/Users/Yifan/Desktop/Ray-Tracing/../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+		<Unit filename="/Users/Yifan/Desktop/rayTracing/../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
 		</Unit>
-		<Unit filename="/Users/Yifan/Desktop/Ray-Tracing/../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+		<Unit filename="/Users/Yifan/Desktop/rayTracing/../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
 		</Unit>
 	</Project>

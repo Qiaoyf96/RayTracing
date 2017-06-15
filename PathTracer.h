@@ -12,7 +12,8 @@
 
 class PathTracer: public RayTracer {
 public:
-    color tracing(Ray ray, int depth, vector<Shape*> shapeList);
+    color tracing(Ray ray, int depth, vector<Shape*> &shapeList);
+    void getPicture(int height, int width, float3 cx, float3 cy, float3 pos, float3 dir, int samples, vector<Shape*> &shapeList, Film& film);
 };
 
 #endif //RAY_TRACING_PATHTRACER_H

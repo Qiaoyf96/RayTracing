@@ -17,7 +17,11 @@ public:
 
     float3 operator + (const float3 & b) const;
 
+    float3 operator + (double a) const;
+
     float3 operator - (const float3 & b) const;
+
+    float3 operator - (double a) const;
 
     float3 operator * (double r) const;
 

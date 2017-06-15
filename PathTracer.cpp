@@ -6,9 +6,7 @@
 #include <cmath>
 #include <cstdlib>
 
-#define COLORMAX 255
-
-color PathTracer::tracing(Ray ray, int depth, vector<Shape*> shapeList) {
+color PathTracer::tracing(Ray ray, int depth, vector<Shape*> &shapeList) {
     double t;
     int id;
     if (!intersect(ray, t, id, shapeList)) return color();
@@ -67,4 +65,24 @@ color PathTracer::tracing(Ray ray, int depth, vector<Shape*> shapeList) {
     return e + col.merge(tracing(reflRay, depth, shapeList) * re + tracing(Ray(pos, tdir), depth, shapeList) * tr);
 }
 
-
+void
+PathTracer::getPicture(int height, int width, float3 cx, float3 cy, float3 pos, float3 dir, int samples, vector<Shape *> &shapeList, Film &film) {
+    for (int y = 0; y < height; y++)
+        for (int x = 0; x < width; x++) {
+            printf("\rProcess %5.2lf%%", (y * width + x) * 100 / double(height * width));
+            for (int sy = 0; sy < 2; sy++)
+                for (int sx = 0; sx < 2; sx++) {
+                    color c = color();
+                    for (int s = 0; s < samples; s++) {
+                        double r1 = 2 * rand() / (double) RAND_MAX;
+                        double dx = r1 < 1 ? sqrt(r1) - 1 : 1 - sqrt(2 - r1);
+                        double r2 = 2 * rand() / (double) RAND_MAX;
+                        double dy = r2 < 1 ? sqrt(r2) - 1 : 1 - sqrt(2 - r2);
+                        float3 d = cx * (((sx + 0.5 + dx) / 2 + x) / width - 0.5) +
+                                   cy * (((sy + 0.5 + dy) / 2 + y) / height - 0.5) + dir;
+                        c = c + tracing(Ray(pos + d * 130, d.norm()), 0, shapeList) * (1.0 / samples);
+                    }
+                    film.c[(height - y - 1) * width + x] = film.c[(height - y - 1) * width + x] + c.norm() * 0.25;
+                }
+        }
+}

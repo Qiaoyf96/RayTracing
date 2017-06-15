@@ -39,9 +39,15 @@ Sphere::Sphere(const float3& pos, double r, const color& e, const color& c, Refl
 
 textureSphere::textureSphere(const float3 &pos, double r, const color &e) : Sphere(pos, r, e, color(), DIFF) {}
 
+double norm(double x) {
+    if (x > 1) return 1;
+    if (x < -1) return -1;
+    return x;
+}
+
 color textureSphere::getColor() {
-    double a = acos(-n.dot(float3(0, 0, 1)));
-    double b = acos(min(max(n.dot(float3(0, 1, 0)) / sin(a), -1.0), 1.0));
+    double a = acos(norm(-n.dot(float3(0, 0, 1))));
+    double b = sin(a) == 0 ? 1 : acos(norm(min(max(n.dot(float3(0, 1, 0)) / sin(a), -1.0), 1.0)));
     double u = a / M_PI, v = b / 2 / M_PI;
     if (n.dot(float3(1, 0, 0)) < 0) v = 1 - v;
     return texture.getColor(u, v);

@@ -6,7 +6,7 @@
 
 #define INF 1e30
 
-bool RayTracer::intersect(Ray ray, double &t, int &id, vector<Shape*> shapeList) {
+bool RayTracer::intersect(Ray ray, double &t, int &id, vector<Shape*> &shapeList) {
     double d;
     t = INF;
     int i = 0;

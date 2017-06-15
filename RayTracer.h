@@ -8,14 +8,15 @@
 
 #include "Ray.h"
 #include "Shape.h"
+#include "Film.h"
 #include <vector>
 
 using namespace std;
 
 class RayTracer {
 public:
-    virtual color tracing(Ray ray, int depth, vector<Shape*> shapeList) = 0;
-    bool intersect(Ray ray, double &t, int &id, vector<Shape*> shapeList);
+    bool intersect(Ray ray, double &t, int &id, vector<Shape*> &shapeList);
+    virtual void getPicture(int height, int width, float3 cx, float3 cy, float3 pos, float3 dir, int samples, vector<Shape*> &shapeList, Film& film) = 0;
 };
 
 

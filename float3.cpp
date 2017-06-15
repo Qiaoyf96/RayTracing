@@ -56,6 +56,14 @@ float3 float3::cross(const float3 &b) const {
     return float3(y * b.z - z * b.y, z * b.x - x * b.z, x * b.y - y * b.x);
 }
 
+float3 float3::operator-(double a) const {
+    return float3(x - a, y - a, z - a);
+}
+
+float3 float3::operator+(double a) const {
+    return float3(x + a, y + a, z + a);
+}
+
 float3 operator*(double r, const float3 &a) {
     return a * r;
 }
